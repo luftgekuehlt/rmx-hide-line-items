@@ -1,0 +1,18 @@
+{
+	"name": "rmx-hide-line-items",
+	"version": "1.0",
+	"description": "Remove all internal line items from consumtion view in RMX.",
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "wind48.png",
+		"default_title": "Remove internal RMX line items."
+	},
+	"icons": { "16": "wind16.png",
+           "48": "wind48.png",
+          "128": "wind128.png" },
+	"permissions": ["tabs", "<all_urls>", "activeTab"],
+	"manifest_version": 2
+}
