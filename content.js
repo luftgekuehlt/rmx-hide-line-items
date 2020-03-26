@@ -1,5 +1,5 @@
 //the array contains all "Comp Code" achronyms, that will disapear
-var array = ["ISI", "SME", "AME", "PRH", "MSO"];
+var array = ["ISI", "SME", "AME", "PRH", "MSO", "W42", "SA3"];
 
 var tbl = document.body.getElementsByTagName('tbody');
 
